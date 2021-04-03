@@ -15,7 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+  <distributionManagement>
+     <repository>
+	      <id>nexus</id>
+	      <name>Releases Nexus Repository</name>
+	      <url>http://54.172.244.5:8081/repository/maven-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://54.172.244.5:8081/repository/maven-snapshots/</url>
+	    </snapshotRepository>
+   </distributionManagement>
+ <build>
     <finalName>maven-project</finalName>
     <plugins>
       <plugin>
