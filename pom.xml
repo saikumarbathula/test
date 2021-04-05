@@ -16,16 +16,11 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-     <repository>
-	      <id>nexus</id>
-	      <name>Releases Nexus Repository</name>
-	      <url>http://54.172.244.5:8081/repository/nexus-releases//</url>
-	    </repository>
-	    
-	    <snapshotRepository>
+   
+	     <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://54.172.244.5:8081/repository/nexus-snapshots/</url>
+	      <url>http://3.95.194.157:8081/repository/nexus-snapshots/</url>
 	    </snapshotRepository>
    </distributionManagement>
  <build>
