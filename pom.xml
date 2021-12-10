@@ -20,8 +20,8 @@
    
 	     <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Snapshot Nexus Repository </name>
-	      <url>http://3.95.194.157:8081/repository/nexus-snapshots/</url>
+	      <name>Snapshot maven Repository </name>
+	      <url>http://52.207.211.133:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
    </distributionManagement>
  <build>
