@@ -17,8 +17,7 @@
   </dependencies>
 	
 	<distributionManagement>
-   
-	     <snapshotRepository>
+            <snapshotRepository>
 	      <id>nexus</id>
 	      <name>maven-repo</name>
 	      <url>http://54.234.72.71:8081/repository/maven-repo/</url>
