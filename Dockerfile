@@ -6,4 +6,6 @@ COPY target/maven-project.war  /usr/local/tomcat/webapps/maven-project.war
 
 
 
-EXPOSE 80
+
+
+EXPOSE 8089
